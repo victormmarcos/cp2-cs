@@ -1,5 +1,3 @@
-<img width="1284" height="685" alt="image" src="https://github.com/user-attachments/assets/2b187516-3434-4558-a409-aabbb23a8a76" /># Projeto Banco — API
-
 ## 1. Identificação
 - Integrante 1: Arthur Bueno — RM558396
 - Integrante 2: João Carotta — RM555187
@@ -101,4 +99,7 @@ Inserir print do resultado dos testes.
 Inserir print do painel do RabbitMQ mostrando a fila `contratacoes` com mensagens processadas.
 
 ## 9. Print da API no Swagger
-Inserir print do Swagger com pelo menos uma contratação aprovada.
+<img width="1476" height="721" alt="image" src="https://github.com/user-attachments/assets/55b6c005-7695-4f08-831e-7b9209429cd4" />
+<img width="1426" height="723" alt="image" src="https://github.com/user-attachments/assets/3026c603-54cf-4c5d-a521-3136e35618b6" />
+
+
