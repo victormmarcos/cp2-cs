@@ -1,4 +1,4 @@
-# Projeto Banco — API
+<img width="1284" height="685" alt="image" src="https://github.com/user-attachments/assets/2b187516-3434-4558-a409-aabbb23a8a76" /># Projeto Banco — API
 
 ## 1. Identificação
 - Integrante 1: Arthur Bueno — RM558396
@@ -14,7 +14,9 @@ Como o grupo é trio, foram implementados dois produtos:
 Esses produtos foram escolhidos porque representam contratações bancárias com processamento assíncrono e possibilidade real de aprovação ou reprovação.
 
 ## 4. Diagrama de classes
-Inserir aqui a imagem gerada a partir de `/docs/diagrama-classes.puml` ou converter para `.png`/`.drawio`.
+<img width="1284" height="685" alt="Captura de tela 2026-05-05 223426" src="https://github.com/user-attachments/assets/e9cd44f3-96c1-4800-8cad-c807b0f9cf44" />
+
+
 
 ## 6. Endpoints disponíveis
 
