@@ -1,9 +1,9 @@
 # Projeto Banco — API
 
 ## 1. Identificação
-- Integrante 1: Nome completo — RM000000
-- Integrante 2: Nome completo — RM000000
-- Integrante 3: Nome completo — RM000000
+- Integrante 1: Arthur Bueno — RM558396
+- Integrante 2: João Carotta — RM555187
+- Integrante 3: Victor Magdaleno — RM556729
 
 ## 2. Produto bancário escolhido e justificativa
 Como o grupo é trio, foram implementados dois produtos:
