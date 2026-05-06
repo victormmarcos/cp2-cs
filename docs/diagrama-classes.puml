@@ -1,0 +1,78 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Agencia {
+  +long Id
+  +string Numero
+  +string Nome
+  +string Cidade
+  +string Uf
+}
+
+abstract class Cliente {
+  +long Id
+  +string Nome
+  +string Email
+  +long AgenciaId
+}
+
+class PessoaFisica {
+  +string Cpf
+  +DateTime DataNascimento
+  +decimal RendaMensal
+  +int Score
+}
+
+class PessoaJuridica {
+  +string Cnpj
+  +string RazaoSocial
+  +decimal FaturamentoMensal
+  +int Score
+}
+
+abstract class Produto {
+  +long Id
+  +string Nome
+  +TipoProduto Tipo
+  +bool Ativo
+}
+
+class Emprestimo {
+  +decimal ValorMinimo
+  +decimal ValorMaximo
+  +decimal TaxaJurosMensal
+  +int PrazoMaximoMeses
+}
+
+class MaquinaDeCartao {
+  +decimal MdrDebito
+  +decimal MdrCreditoAVista
+  +decimal MdrCreditoParcelado
+  +decimal FaturamentoMinimoMensal
+}
+
+class ReceberSalario {
+  +bool ExigeConvenioEmpregador
+}
+
+class Contratacao {
+  +long Id
+  +long ClienteId
+  +long ProdutoId
+  +StatusContratacao Status
+  +DateTime DataSolicitacao
+  +DateTime? DataProcessamento
+  +string? MotivoReprovacao
+  +decimal? ValorSolicitado
+  +int? PrazoMeses
+}
+
+Agencia "1" -- "0..*" Cliente
+Cliente <|-- PessoaFisica
+Cliente <|-- PessoaJuridica
+Produto <|-- Emprestimo
+Produto <|-- MaquinaDeCartao
+Produto <|-- ReceberSalario
+Cliente "1" -- "0..*" Contratacao
+Produto "1" -- "0..*" Contratacao
+@enduml
