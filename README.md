@@ -93,10 +93,12 @@ GET `/api/contratacoes/{id}`
 dotnet test
 ```
 
-Inserir print do resultado dos testes.
+<img width="848" height="75" alt="image" src="https://github.com/user-attachments/assets/238085ff-4b87-48ab-b3ca-bb070dd935ef" />
+
 
 ## 8. Print do RabbitMQ
-Inserir print do painel do RabbitMQ mostrando a fila `contratacoes` com mensagens processadas.
+<img width="1133" height="479" alt="image" src="https://github.com/user-attachments/assets/dd139999-9a32-4205-9bc0-643ae0609f65" />
+
 
 ## 9. Print da API no Swagger
 <img width="1476" height="721" alt="image" src="https://github.com/user-attachments/assets/55b6c005-7695-4f08-831e-7b9209429cd4" />
